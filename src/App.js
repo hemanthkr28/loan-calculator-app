@@ -171,7 +171,28 @@ function ErrorPage() {
 }
 
 function AboutPage() {
-  return <Typography variant="h5" sx={{ m: 3 }}>This is a loan calculator application built with React and Material UI.</Typography>;
+ function AboutPage() {
+  return (
+    <Box sx={{ m: 3 }}>
+      <Typography variant="h5" gutterBottom>
+        This is a loan calculator application built with React and Material UI.
+      </Typography>
+      <Typography variant="body1" sx={{ mt: 2 }}>
+        <strong>GitHub Repository:</strong>{' '}
+        <a href="https://github.com/hemanthkr28/loan-calculator-app" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+        </a>
+      </Typography>
+      <Typography variant="body1" sx={{ mt: 1 }}>
+        <strong>Live Demo:</strong>{' '}
+        <a href="https://your-live-app-url.vercel.app" target="_blank" rel="noopener noreferrer">
+          View Deployed App
+        </a>
+      </Typography>
+    </Box>
+  );
+}
+
 }
 
 function ExchangeRatePage() {
