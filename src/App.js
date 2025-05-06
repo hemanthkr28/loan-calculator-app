@@ -170,7 +170,6 @@ function ErrorPage() {
   return <Typography variant="h5" sx={{ m: 3 }}>An error occurred. Please try again later.</Typography>;
 }
 
-function AboutPage() {
  function AboutPage() {
   return (
     <Box sx={{ m: 3 }}>
@@ -193,7 +192,7 @@ function AboutPage() {
   );
 }
 
-}
+
 
 function ExchangeRatePage() {
   return <Typography variant="h5" sx={{ m: 3 }}>Exchange Rate page coming soon...</Typography>;
